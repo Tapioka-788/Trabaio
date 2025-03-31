@@ -1,0 +1,57 @@
+section {
+  width: 100vw;
+  height: 90vh;
+
+  background-color: #c2b2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  section,
+  #shower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #shower {
+    width: 50vw;
+    height: 50vh;
+
+    flex-direction: column;
+
+    background-color: #9084d8;
+    border-radius: 1vw;
+
+    #numero {
+      width: 15vw;
+      height: 5vh;
+      background-color: #c2b2ff;
+      border-radius: 1vw;
+      border: none;
+      font-size: 1.5vw;
+
+      padding-left: 1vh;
+      margin: 1vh;
+    }
+    #numero:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
+    #descobrir {
+      width: 15vw;
+      height: 7vh;
+      background-color: #c2b2ff;
+      border-radius: 1.25vw;
+      border: none;
+      font-size: 1.5vw;
+    }
+
+    #descobrir:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+
+}

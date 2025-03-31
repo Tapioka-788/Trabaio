@@ -1,0 +1,41 @@
+section {
+    width: 100vw;
+    height: 90vh;
+  
+    background-color: #c2b2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    section,
+    #shower {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #shower {
+      width: 50vw;
+      height: 50vh;
+  
+      flex-direction: column;
+  
+      background-color: #9084d8;
+      border-radius: 1vw;
+  
+      #gerar {
+        width: 15vw;
+        height: 7vh;
+        background-color: #c2b2ff;
+        border-radius: 1.25vw;
+        border: none;
+        font-size: 1.5vw;
+      }
+  
+      #gerar:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+    }
+  
+  }
